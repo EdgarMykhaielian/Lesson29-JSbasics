@@ -7,6 +7,12 @@ let userYearOfBirth = prompt('Year of birth?', 1995)
 let currentYear = 2022
 const userAge = currentYear - userYearOfBirth
 alert(`You are ${userAge} years old!`)
+if (userAge < 18) {
+    alert('You are just a baby!')
+}
+if (userAge > 80) {
+    alert('You are too old but very wise!')
+}
 
 //square perimeter
 let length = prompt('What is the length of your square?', 450)
